@@ -14,15 +14,30 @@
 
 class Cuboid {
     // TODO: Program Me
-    constructor(length, width, heigh){
+    constructor(length, width, height){
         this.length = length
         this.width = width
-        this.height = this.height
+        this.height = height
     }
     get surfaceArea(){
-        return 
+        return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
+    }
+    get volume(){
+      return this.length * this.width * this.height
     }
   }
   class Cube extends Cuboid {
     // Don't forget to make a call to super ;)
+    constructor(length){
+        super(length, length, length)
+
+    }
   }
+
+  let cuboid = new Cuboid(2, 3, 4)
+  console.log(cuboid.surfaceArea)
+  console.log(cuboid.volume)
+
+  let cube = new Cube(2)
+  console.log(cube.surfaceArea)
+  console.log(cube.volume)
