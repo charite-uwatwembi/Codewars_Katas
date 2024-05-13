@@ -17,13 +17,12 @@
 
 // ("we found your dynamite", "d", "y") ➞ False
 function bestFriend(txt, a, b) {
- [...txt].map((char, index)=>{
-        if(char===a){
-            if(txt[index+1]===b){
-                return false
-            }
-        }
-    }).join("")
-    return true
+ for(let i = 0; i < txt.length; i++){
+     if(txt[i] === a && txt[i+1] === b){return true}
+ }
+ return false
   }
   console.log(bestFriend("he headed to the store", "h", "e"))
+  console.log(bestFriend("the cloud was over clouded", "o", "u"))
+  console.log(bestFriend("the cloud was over clouded", "l", "o"))
+  console.log(bestFriend("the cloud was over clouded", "d", "w"))
