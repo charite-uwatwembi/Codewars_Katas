@@ -14,4 +14,4 @@ function sumTwoSmallestNumbers(numbers) {
    
     return sum 
   }
-  console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]));
+  console.log(sumTwoSmallestNumbers([ 42, 2, 77]));
