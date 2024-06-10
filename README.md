@@ -1,1 +1,1 @@
-There is are codewars katas answers i have worked on.
+These are codewars katas answers i have worked on.
