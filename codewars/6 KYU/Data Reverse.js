@@ -22,8 +22,7 @@
     for (let i = 0; i < data.length; i += 8) {
         result.push(data.slice(i, i + 8));
     }
-    return result.reverse().flat();
-    
+    return result.reverse().flat();//flattens the array into a single array   
 }
 
 console.log(dataReverse([1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0]));
