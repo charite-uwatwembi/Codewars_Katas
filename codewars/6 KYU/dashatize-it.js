@@ -22,7 +22,7 @@ function dashatize(num) {
 
 
 console.log(dashatize(274));  
-console.log(dashatize(6815));  // Output: '68-1-5'
+console.log(dashatize(6815));  
 console.log(dashatize(13579));  // Output: '1-3-5-7-9'
 console.log(dashatize(2468));  // Output: '2468'
 console.log(dashatize(0));  // Output: '0'
