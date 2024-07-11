@@ -3,7 +3,7 @@ function dashatize(num) {
     let result = [];
 
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 !== 0) { // Check if the digit is odd
+        if (arr[i] % 2 !== 0) { 
             // Ensure not to add leading or trailing dashes incorrectly
             if (i > 0 && result[result.length - 1] !== '-') {
                 result.push('-');
