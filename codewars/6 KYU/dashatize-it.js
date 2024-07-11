@@ -25,4 +25,4 @@ console.log(dashatize(274));
 console.log(dashatize(6815));  
 console.log(dashatize(13579));  
 console.log(dashatize(2468));  
-console.log(dashatize(0));  // Output: '0'
+console.log(dashatize(0));  
