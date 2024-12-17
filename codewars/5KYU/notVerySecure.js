@@ -5,7 +5,7 @@
 
 // At least one character ("" is not valid)
 // Allowed characters are uppercase / lowercase latin letters and digits from 0 to 9
-// No whitespaces / underscore
+// No whitespaces / or underscore
 
 function alphanumeric(string){
     //your code here
