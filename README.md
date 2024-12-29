@@ -1,1 +1,1 @@
-have been recently working on various javascript codewars katas for some time.😊
+I have been recently working on various javascript codewars katas for some time.😊
