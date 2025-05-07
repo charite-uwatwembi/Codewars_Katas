@@ -1,1 +1,1 @@
-4 KYUs
+4 KYU katas
