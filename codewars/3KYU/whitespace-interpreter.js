@@ -140,6 +140,6 @@ function unbleach(n) {
     throw new Error("Program did not terminate properly");
   }
   console.log(
-    whitespace('   \t\n\t\n \t\n\n\n', '')  // Push -1, output as number, end
+    whitespace('   \t\n\t\n \t\n\n\n', '')  // Push -1, output as number, end 
   ); // Output: -1
     
