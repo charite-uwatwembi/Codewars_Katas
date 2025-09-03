@@ -1,1 +1,1 @@
-4 KYU codewars katas
+Js 4 KYU codewars katas
